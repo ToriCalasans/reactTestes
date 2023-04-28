@@ -11,24 +11,35 @@ function App() {
         <section>
           <img src={logo} className="App-logo" alt="logo" />
         </section>
-          <row>
-            <column>
-              <div class="div1">
-                <div class="div2">
-                  <p>
-                    Titulo exdruxulo
-                  </p>
-                </div>
+        <row>
+          <container class="container1">
+            <div class="div1">
+              <div class="div2">
+                <h1>Meu Titulo</h1>
               </div>
-              <div class="div1">
-                <div class="div2">
-                  <p>
-                    Titulo exdruxulo
-                  </p>
-                </div>
+            </div>
+            <div class="div1">
+              <div class="div2">
+                <h1>Meu Titulo</h1>
               </div>
-            </column>
-          </row>
+            </div>
+            <div class="div1">
+              <div class="div2">
+                <h1>Meu Titulo</h1>
+              </div>
+            </div>
+            <div class="div1">
+              <div class="div2">
+                <h1>Meu Titulo</h1>
+              </div>
+              <div class="div3">
+                <p>
+                  Meu texto
+                </p>
+              </div>
+            </div>
+          </container>
+        </row>
       </main>
       <footer class="App-footer">
         <p>
